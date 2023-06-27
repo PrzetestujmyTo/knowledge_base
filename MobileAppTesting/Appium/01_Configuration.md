@@ -32,7 +32,7 @@ Aby stworzyć pierwszy test w środowisku MacOS z użyciem Pythona i Appium, wyk
    brew install node
    ```
 
-7. **Instalacja Appium**: Teraz, kiedy masz Node.js, możesz zainstalować Appium za pomocą npm (Node package manager):
+7. **Instalacja Appium**: Teraz kiedy masz Node.js, możesz zainstalować Appium za pomocą npm (Node package manager):
    ```
    npm install -g appium
    ```
@@ -49,30 +49,5 @@ Aby stworzyć pierwszy test w środowisku MacOS z użyciem Pythona i Appium, wyk
     appium
     ```
     Pozostaw ten terminal otwarty, gdyż serwer Appium musi być uruchomiony podczas testowania.
-
-11. **Przygotowanie skryptu testowego w Pythonie**: Utwórz nowy plik Pythona (np. `my_first_test.py`) i napisz swój test. Oto przykładowy szkielet skryptu:
-
-    ```python
-    from appium import webdriver
-
-    desired_caps = {
-        'platformName': 'iOS',  #lub 'Android' jeśli testujesz na Androidzie
-        'platformVersion': '14.4',  # Wersja systemu
-        'deviceName': 'iPhone Simulator', # Nazwa urządzenia
-        'app': '/ścieżka/do/twojej/aplikacji.app' # Ścieżka do pliku aplikacji
-    }
-
-    driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-
-    # Tutaj umieść swoje kroki testowe, na przykład:
-    # element = driver.find_element_by_name("nazwa_elementu")
-    # element.click()
-
-    driver.quit()
-    ```
-
-12. **Uruchomienie skryptu testowego**: W terminalu, przejdź do lokalizacji, gdzie znajduje się twój skrypt testowy i wpisz `python my_first_test.py`.
-
-13. **Analiza wyników**: Po wykonaniu testu, przeanalizuj wyniki i zobacz, czy aplikacja działa zgodnie z oczekiwaniami.
 
 Szczegóły konfiguracji mogą się różnić w zależności od wersji narzędzi i specyfiki projektu. Zalecam również zapoznanie się z dokumentacją Appium i Appium-Python-Client dla bardziej zaawansowanych scenariuszy testowych.

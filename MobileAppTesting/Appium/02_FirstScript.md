@@ -5,7 +5,7 @@
 3. Przejdź do "Tools" > "Device Manager".
 4. Kliknij "Create Device" jeśli nie masz już skonfigurowanego emulatora lub kliknij trójkąt (play button) obok nazwy emulatora, aby uruchomić istniejący emulator.
 
-![Device Manger](MobileAppTesting/Appium/images/AndroidStudio_DeviceManager.png)
+<img alt="Device Manger" height="500" src="images/AndroidStudio_DeviceManager.png" width="500"/>
 
 
 Alternatywnie, możesz uruchomić emulator z wiersza poleceń:
