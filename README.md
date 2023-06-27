@@ -5,5 +5,5 @@ Knowledge Base for TestSpring Team
 
 ### Appium - basics
 
-- [Konfiguracja](Mobile%20App%20Testing/Appium/01 Configuration.md)
-- [Pierwszy skrypt](Mobile%20App%20Testing/Appium/02 First Script.md)
+- [Konfiguracja](MobileAppTesting/Appium/01 Configuration.md)
+- [Pierwszy skrypt](MobileAppTesting/Appium/02 First Script.md)
